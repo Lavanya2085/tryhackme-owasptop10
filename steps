@@ -1,0 +1,28 @@
+3. Data Transmission Risks
+
+Data can be intercepted during transmission if encryption is not used.
+
+Example vulnerabilities:
+
+Using HTTP instead of HTTPS
+Sending credentials in plain text
+Weak encryption protocols
+
+Attackers can use tools such as:
+
+Wireshark
+Burp Suite
+MITM attacks
+4. Logging Sensitive Information
+
+Applications sometimes log sensitive data accidentally.
+
+Example insecure log:
+
+User login: admin | Password: admin123
+
+Logs should never contain:
+
+Passwords
+Tokens
+Private keys
